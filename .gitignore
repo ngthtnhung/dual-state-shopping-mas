@@ -1,0 +1,29 @@
+# Downloaded datasets, processed data, trained weights, checkpoints, reports, and annotation outputs.
+/dataset/
+/models/
+/checkpoints/
+/reports/
+/outputs/
+/research_report.md
+*.xlsx
+*.csv
+
+# Local editor and workspace state.
+/ecommerce.code-workspace
+/.vscode/
+
+# Python environments, bytecode, and test caches.
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets and temporary files.
+.env
+.env.*
+!.env.example
+*.tmp
+~$*.xlsx
